@@ -11,7 +11,7 @@ st.title("🔥 Trending News")
 
 try:
 
-    news = pd.read_csv("news.csv")
+    news = pd.read_csv("news_small.csv")
 
     st.success(f"Loaded {len(news):,} articles")
 
