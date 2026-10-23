@@ -52,7 +52,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("news.csv")
+    return pd.read_csv("news_small.csv")
 
 news = load_data()
 
