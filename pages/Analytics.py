@@ -14,7 +14,7 @@ st.title("📊 Analytics Dashboard")
 # Load Data
 # -----------------------------
 
-news = pd.read_csv("news.csv")
+news = pd.read_csv("news_small.csv")
 
 # Safety Fixes
 news["title"] = news["title"].fillna("").astype(str)
